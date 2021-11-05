@@ -1,0 +1,20 @@
+.media-block {
+  justify-content: space-between;
+}
+
+.twitter {
+  padding: 10px;
+}
+
+.discord {
+  padding: 10px;
+}
+
+.medium {
+  padding: 10px;
+  transition: 2s ease-in-out;
+}
+
+.twitter:hover {
+  color: #000;
+}

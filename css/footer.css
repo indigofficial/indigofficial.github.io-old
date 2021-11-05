@@ -1,0 +1,28 @@
+.cus-div {
+  width: 100%;
+  position: relative;
+}
+
+#skew1 {
+  background: var(--black);
+  text-align: center;
+  z-index: 5;
+}
+
+.cus-div:after {
+  width: 100%;
+  height: 100%;
+
+  position: absolute;
+  background: inherit;
+  z-index: -1;
+  bottom: 0;
+  content: "";
+}
+
+.content {
+  padding: 200px 50px;
+  overflow: hidden;
+  display: block;
+  height: auto;
+}

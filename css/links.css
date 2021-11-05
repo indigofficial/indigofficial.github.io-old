@@ -1,0 +1,9 @@
+a {
+  color: var(--white);
+  text-decoration: underline;
+  font-size: 20px;
+}
+
+.buy a {
+  font-size: 30px;
+}

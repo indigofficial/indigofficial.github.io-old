@@ -1,0 +1,35 @@
+.speech-bubble {
+  font-family: "Inconsolata", sans-serif;
+  font-size: 1.9em;
+  color: var(--white);
+
+  padding: 1.125em 1.5em;
+  position: relative;
+
+  max-width: 30em;
+  background-color: var(--light-indigo);
+  border-radius: 1rem;
+  box-shadow: 0 0.125rem 0.5rem rgba(0, 0, 0, 0.3),
+    0 0.0625rem 0.125rem rgba(0, 0, 0, 0.2);
+}
+
+.speech-bubble::before {
+  content: "";
+  position: absolute;
+
+  width: 0;
+  height: 0;
+
+  bottom: 100%;
+  left: 1.5em;
+
+  border: 0.75rem solid transparent;
+  border-top: none;
+  border-bottom-color: var(--light-indigo);
+
+  filter: drop-shadow(0 -0.0625rem 0.0625rem rgba(0, 0, 0, 0.1));
+}
+
+.bubble-left {
+  padding-left: 200px;
+}
