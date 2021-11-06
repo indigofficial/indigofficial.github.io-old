@@ -62,3 +62,9 @@
   opacity: 0;
   transform: scale(0.1, 1);
 }
+
+.mint-container h5 {
+  font-family: "Inconsolata", sans-serif;
+  font-size: 45px;
+  color: rgb(245, 166, 19);
+}
