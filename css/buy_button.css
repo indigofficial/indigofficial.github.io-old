@@ -36,8 +36,8 @@
   border-bottom-width: 1px;
   border-top-style: solid;
   border-bottom-style: solid;
-  border-top-color: var(--light-indigo);
-  border-bottom-color: var(--light-indigo);
+  border-top-color: rgb(245, 166, 19);
+  border-bottom-color: rgb(245, 166, 19);
   transform: scale(0.1, 1);
 }
 .mint-btn:hover span {
@@ -56,7 +56,7 @@
   height: 100%;
   z-index: 1;
   transition: all 0.3s;
-  background-color: rgba(120, 42, 255, 0.158);
+  background-color: rgba(245, 166, 19, 0.459);
 }
 .mint-btn:hover::after {
   opacity: 0;
