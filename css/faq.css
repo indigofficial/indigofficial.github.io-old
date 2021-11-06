@@ -1,6 +1,6 @@
 .faq-item {
-  background: var(--lighter-indigo);
-  box-shadow: 10px 10px 0 var(--lightest-indigo);
+  background: var(--light-indigo);
+  box-shadow: 10px 10px 0 #8e51f8;
 
   text-align: left;
   color: var(--white);
