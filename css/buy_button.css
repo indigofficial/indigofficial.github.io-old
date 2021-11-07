@@ -3,35 +3,41 @@
   justify-content: center;
   align-items: center;
 }
+
 .mint-btn {
   height: 100px;
   width: 350px;
+
   color: var(--white);
   font-family: "Zen Kaku Gothic New", sans-serif;
   font-size: 23px;
   text-transform: uppercase;
   letter-spacing: 3px;
   text-align: center;
+
+  position: relative;
+  margin: auto;
+
   cursor: pointer;
   line-height: 90px;
   transition: all 0.3s;
-  position: relative;
-  margin: auto;
 }
+
 .mint-btn span {
   transition: all 0.3s;
   color: var(--white);
 }
+
 .mint-btn::before {
   content: "";
   position: absolute;
+
   bottom: 0;
   left: 0;
+
   width: 100%;
   height: 100%;
-  z-index: 1;
-  opacity: 0;
-  transition: all 0.3s;
+
   border-top-width: 1px;
   border-bottom-width: 1px;
   border-top-style: solid;
@@ -39,25 +45,36 @@
   border-top-color: rgb(245, 166, 19);
   border-bottom-color: rgb(245, 166, 19);
   transform: scale(0.1, 1);
+
+  z-index: 1;
+  opacity: 0;
+  transition: all 0.3s;
 }
+
 .mint-btn:hover span {
   letter-spacing: 2px;
 }
+
 .mint-btn:hover::before {
   opacity: 1;
   transform: scale(1, 1);
 }
+
 .mint-btn::after {
   content: "";
   position: absolute;
+
   bottom: 0;
   left: 0;
+
   width: 100%;
   height: 100%;
+
   z-index: 1;
   transition: all 0.3s;
   background-color: rgba(245, 166, 19, 0.459);
 }
+
 .mint-btn:hover::after {
   opacity: 0;
   transform: scale(0.1, 1);

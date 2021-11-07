@@ -4,8 +4,8 @@
 }
 
 #skew1 {
-  background: var(--black);
   text-align: center;
+  background: var(--black);
   z-index: 5;
 }
 
