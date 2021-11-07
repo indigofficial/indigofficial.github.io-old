@@ -4,6 +4,12 @@ a {
   font-size: 20px;
 }
 
+.follow-link a {
+  color: var(--white);
+  font-size: 27px;
+  text-decoration: underline;
+}
+
 .buy a {
   font-size: 30px;
 }
