@@ -3,8 +3,7 @@
   background: -webkit-linear-gradient(
     45deg,
     var(--light-indigo),
-    var(--lighter-indigo),
-    var(--lightest-indigo)
+    var(--lighter-indigo)
   );
   -webkit-background-clip: text;
   -moz-background-clip: text;

@@ -1,0 +1,12 @@
+.display-img {
+  width: 50vw;
+  height: 50vh;
+
+  border: 10px solid var(--light-indigo);
+  border-radius: 50px;
+}
+
+.quokka-img {
+  height: 350px;
+  border-radius: 10px;
+}

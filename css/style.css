@@ -70,6 +70,7 @@ p {
 
 hr {
   height: 10px;
+
   background: linear-gradient(
     to right,
     var(--light-indigo),
@@ -81,10 +82,6 @@ hr {
 
 span {
   color: var(--lighter-indigo);
-}
-
-.left span {
-  text-decoration: line-through;
 }
 
 ::selection {
@@ -102,11 +99,11 @@ li {
   align-items: center;
 }
 
-.roadmap-left {
+.content-left {
   padding-left: 200px;
 }
 
-.about {
+.about-section {
   padding-left: 200px;
   display: inline-block;
   width: 1200px;
@@ -114,20 +111,15 @@ li {
   display: flex;
 }
 
-.roadmap {
-  display: inline-block;
-  width: 1200px;
-}
-
-.imgTag {
-  width: 50vw;
-  height: 50vh;
-
-  border: 10px solid var(--light-indigo);
-  border-radius: 50px;
-}
-
-.quokkaIMG {
-  height: 350px;
-  border-radius: 10px;
+.roadmap-text {
+  background: -webkit-linear-gradient(
+    45deg,
+    var(--light-indigo),
+    var(--lighter-indigo)
+  );
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 100px;
 }
