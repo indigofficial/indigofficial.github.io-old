@@ -1,0 +1,29 @@
+.faq-text {
+  font-size: 50px;
+  background: -webkit-linear-gradient(
+    45deg,
+    var(--light-indigo),
+    var(--lighter-indigo)
+  );
+
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.textshadow {
+  font-size: 40px;
+  letter-spacing: 1vw;
+  background: -webkit-linear-gradient(
+    45deg,
+    var(--light-indigo),
+    var(--lighter-indigo)
+  );
+  text-shadow: -0.5vw -0.5vw 0 white;
+
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}

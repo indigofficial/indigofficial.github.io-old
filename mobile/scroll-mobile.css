@@ -1,0 +1,16 @@
+::-webkit-scrollbar {
+  width: 25px;
+}
+
+::-webkit-scrollbar-track {
+  border: 7px solid var(--black);
+  border-radius: 100vw;
+
+  background: var(--black);
+  margin-block: 0.5em;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(var(--light-indigo), var(--lighter-indigo));
+  border-radius: 100vw;
+}

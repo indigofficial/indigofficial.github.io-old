@@ -1,0 +1,26 @@
+main {
+  min-width: 300px;
+  max-width: 500px;
+
+  margin: auto;
+}
+
+.timeline p {
+  color: var(--white);
+  font-size: 25px;
+
+  border-top: 3px solid;
+  border-image: linear-gradient(
+    to right,
+    var(--light-indigo) 0%,
+    var(--lighter-indigo) 100%
+  );
+  border-image-slice: 1;
+  border-width: 3px;
+
+  margin: 0;
+  padding: 40px;
+  counter-increment: section;
+  position: relative;
+  line-height: 1.75em;
+}
