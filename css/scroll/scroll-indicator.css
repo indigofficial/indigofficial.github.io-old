@@ -1,4 +1,4 @@
-.aniWrap {
+.mouse-wrap {
   margin: 40px auto;
   display: block;
   width: 28px;
@@ -22,7 +22,7 @@
   border-radius: 2px;
   background: white;
   position: relative;
-  -webkit-animation: scrolls 1.3s ease-out infinite; /* Chrome, Safari, Opera */
+  -webkit-animation: scrolls 1.3s ease-out infinite;
 }
 
 @-webkit-keyframes scrolls {

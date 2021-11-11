@@ -1,0 +1,74 @@
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-family: "Zen Kaku Gothic New", sans-serif;
+    font-size: 90px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+  }
+
+  h2 {
+    font-family: "Zen Kaku Gothic New", sans-serif;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+  h3 {
+    font-family: "Zen Kaku Gothic New", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 30px;
+  }
+
+  h4 {
+    font-family: "Zen Kaku Gothic New", sans-serif;
+    font-size: 30px;
+  }
+
+  h5 {
+    font-family: "Zen Kaku Gothic New", sans-serif;
+    font-size: 50px;
+  }
+
+  p {
+    font-family: "Inconsolata", sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+    color: var(--white);
+  }
+
+  hr {
+    height: 10px;
+
+    background: linear-gradient(
+      to right,
+      var(--light-indigo),
+      var(--lighter-indigo),
+      var(--lightest-indigo)
+    );
+    border: none;
+  }
+
+  span {
+    color: var(--lighter-indigo);
+  }
+
+  li {
+    color: var(--blue-black);
+  }
+
+  ::selection {
+    color: var(--lightest-indigo);
+    background: var(--black);
+  }
+
+  .responsive-wrapper-about {
+    display: none;
+  }
+}
+
+@media (min-width: 1281px) {
+  .responsive-wrapper-about2 {
+    display: none;
+  }
+}

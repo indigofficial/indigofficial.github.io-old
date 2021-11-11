@@ -1,0 +1,35 @@
+.content-center {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-left {
+  padding-left: 200px;
+}
+
+.content-story {
+  padding: 200px 50px;
+  overflow: hidden;
+  display: block;
+  height: auto;
+}
+
+.content {
+  padding: 200px 50px;
+  overflow: hidden;
+  display: block;
+  height: auto;
+}
+
+.left-200 {
+  padding-left: 200px;
+  display: inline-block;
+  width: 1200px;
+
+  display: flex;
+}
+
+.padding-special-20 {
+  padding: 20px;
+}

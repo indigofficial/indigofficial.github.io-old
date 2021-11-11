@@ -24,6 +24,7 @@
   transform-origin: center center;
 }
 
+/* Positions */
 .side {
   width: 300px;
   height: 300px;
@@ -38,34 +39,35 @@
 
 .back {
   transform: translateZ(-150px) rotateX(180deg);
-  background-image: url(../images/gallery/1.png);
+  background-image: url(../../images/gallery/1.png);
 }
 
 .left {
   transform: translateX(-150px) rotateY(90deg);
-  background-image: url(../images/gallery/2.png);
+  background-image: url(../../images/gallery/2.png);
 }
 
 .right {
   transform: translateX(150px) rotateY(90deg);
-  background-image: url(../images/gallery/3.png);
+  background-image: url(../../images/gallery/3.png);
 }
 
 .top {
   transform: translateY(-150px) rotateX(90deg);
-  background-image: url(../images/gallery/4.png);
+  background-image: url(../../images/gallery/4.png);
 }
 
 .bottom {
   transform: translateY(150px) rotateX(270deg);
-  background-image: url(../images/gallery/5.png);
+  background-image: url(../../images/gallery/5.png);
 }
 
 .front {
   transform: translateZ(150px);
-  background-image: url(../images/gallery/6.png);
+  background-image: url(../../images/gallery/6.png);
 }
 
+/* Rotation */
 @keyframes rotate {
   0% {
     transform: rotateX(0);

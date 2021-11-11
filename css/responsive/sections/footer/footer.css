@@ -1,0 +1,34 @@
+@media only screen and (max-width: 768px) {
+  #footer-section {
+    text-align: center;
+    background: var(--black);
+    z-index: 5;
+  }
+
+  .footer-div {
+    width: 100%;
+    position: relative;
+  }
+
+  .footer-div p {
+    color: var(--white);
+  }
+
+  .footer-div:after {
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+    background: inherit;
+    z-index: -1;
+    bottom: 0;
+    content: "";
+  }
+
+  .footer-content {
+    padding: 200px 50px;
+    overflow: hidden;
+    display: block;
+    height: auto;
+  }
+}

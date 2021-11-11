@@ -1,4 +1,4 @@
-.display-img {
+.quokka-drawing {
   width: 50vw;
   height: 50vh;
 
@@ -6,7 +6,7 @@
   border-radius: 50px;
 }
 
-.quokka-img {
+.quokka-image {
   height: 350px;
   border-radius: 10px;
 }

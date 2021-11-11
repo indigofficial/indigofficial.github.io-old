@@ -1,3 +1,32 @@
+/* Profile */
+.profile {
+  padding-left: 300px;
+}
+
+.avatar {
+  border: 8px solid var(--light-indigo);
+  border-radius: 50%;
+}
+
+.username {
+  font-family: "Inconsolata", sans-serif;
+  font-size: 90px;
+  font-weight: 500;
+  color: var(--light-indigo);
+
+  margin-top: 0;
+  margin-bottom: 0;
+
+  padding-left: 20px;
+}
+
+.about-me {
+  display: flex;
+  align-items: center;
+  padding: 3rem 5% 2rem;
+}
+
+/* Speech Bubble */
 .speech-bubble {
   font-family: "Inconsolata", sans-serif;
   font-size: 1.9em;
@@ -28,8 +57,4 @@
   border-bottom-color: var(--light-indigo);
 
   filter: drop-shadow(0 -0.0625rem 0.0625rem rgba(0, 0, 0, 0.1));
-}
-
-.bubble-left {
-  padding-left: 200px;
 }

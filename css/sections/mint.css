@@ -1,9 +1,17 @@
+/* Container */
 .mint-container {
   text-align: center;
   justify-content: center;
   align-items: center;
 }
 
+.mint-container h5 {
+  font-family: "Inconsolata", sans-serif;
+  font-size: 45px;
+  color: rgb(245, 166, 19);
+}
+
+/* Button */
 .mint-btn {
   height: 100px;
   width: 350px;
@@ -21,11 +29,6 @@
   cursor: pointer;
   line-height: 90px;
   transition: all 0.3s;
-}
-
-.mint-btn span {
-  transition: all 0.3s;
-  color: var(--white);
 }
 
 .mint-btn::before {
@@ -49,10 +52,6 @@
   z-index: 1;
   opacity: 0;
   transition: all 0.3s;
-}
-
-.mint-btn:hover span {
-  letter-spacing: 2px;
 }
 
 .mint-btn:hover::before {
@@ -80,8 +79,12 @@
   transform: scale(0.1, 1);
 }
 
-.mint-container h5 {
-  font-family: "Inconsolata", sans-serif;
-  font-size: 45px;
-  color: rgb(245, 166, 19);
+/* Span */
+.mint-btn:hover span {
+  letter-spacing: 2px;
+}
+
+.mint-btn span {
+  transition: all 0.3s;
+  color: var(--white);
 }

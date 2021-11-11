@@ -3,8 +3,8 @@
 :root {
   --white: #fff;
   --black: #000;
-  --blue-black: #1a153a;
   --grey: #252525;
+  --blue-black: #1a153a;
   --indigo: #341948;
   --light-indigo: #772aff;
   --lighter-indigo: #7435a8;
@@ -84,42 +84,11 @@ span {
   color: var(--lighter-indigo);
 }
 
-::selection {
-  color: var(--lightest-indigo);
-  background: var(--black);
-}
-
 li {
   color: var(--blue-black);
 }
 
-.center {
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-}
-
-.content-left {
-  padding-left: 200px;
-}
-
-.about-section {
-  padding-left: 200px;
-  display: inline-block;
-  width: 1200px;
-
-  display: flex;
-}
-
-.roadmap-text {
-  background: -webkit-linear-gradient(
-    45deg,
-    var(--light-indigo),
-    var(--lighter-indigo)
-  );
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-size: 100px;
+::selection {
+  color: var(--lightest-indigo);
+  background: var(--black);
 }

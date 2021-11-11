@@ -1,15 +1,19 @@
-.cus-div {
-  width: 100%;
-  position: relative;
-}
-
-#skew1 {
+#footer-section {
   text-align: center;
   background: var(--black);
   z-index: 5;
 }
 
-.cus-div:after {
+.footer-div {
+  width: 100%;
+  position: relative;
+}
+
+.footer-div p {
+  color: var(--white);
+}
+
+.footer-div:after {
   width: 100%;
   height: 100%;
 
@@ -20,7 +24,7 @@
   content: "";
 }
 
-.content {
+.footer-content {
   padding: 200px 50px;
   overflow: hidden;
   display: block;

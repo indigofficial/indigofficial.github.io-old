@@ -1,5 +1,5 @@
-.faq-text {
-  font-size: 50px;
+.purple-text {
+  font-size: 4vw;
   background: -webkit-linear-gradient(
     45deg,
     var(--light-indigo),
@@ -13,7 +13,7 @@
 }
 
 .textshadow {
-  font-size: 40px;
+  font-size: 7vw;
   letter-spacing: 1vw;
   background: -webkit-linear-gradient(
     45deg,
@@ -26,4 +26,17 @@
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+}
+
+.roadmap-text {
+  background: -webkit-linear-gradient(
+    45deg,
+    var(--light-indigo),
+    var(--lighter-indigo)
+  );
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 100px;
 }

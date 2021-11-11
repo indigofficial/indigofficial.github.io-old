@@ -1,0 +1,14 @@
+@media only screen and (max-width: 768px) {
+  .quokka-drawing {
+    width: 70vw;
+    height: 40vh;
+
+    border: 5px solid var(--light-indigo);
+    border-radius: 50px;
+  }
+
+  .quokka-image {
+    height: 180px;
+    border-radius: 5px;
+  }
+}
