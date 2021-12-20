@@ -1,7 +1,7 @@
 @media only screen and (max-width: 768px) {
   .quokka-drawing {
     width: 70vw;
-    height: 40vh;
+    height: 39vh;
 
     border: 5px solid var(--light-indigo);
     border-radius: 50px;
