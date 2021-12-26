@@ -29,6 +29,7 @@
   cursor: pointer;
   line-height: 90px;
   transition: all 0.3s;
+  padding: 30px;
 }
 
 .mint-btn::before {
@@ -79,12 +80,8 @@
   transform: scale(0.1, 1);
 }
 
-/* Span */
-.mint-btn:hover span {
+.mint-container a {
+  font-size: 23px;
+  text-decoration: none;
   letter-spacing: 2px;
-}
-
-.mint-btn span {
-  transition: all 0.3s;
-  color: var(--white);
 }
