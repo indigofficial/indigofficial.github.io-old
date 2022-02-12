@@ -15,13 +15,14 @@
     <link rel="stylesheet" type="text/css" href="./css/padding.css" />
     <link rel="stylesheet" type="text/css" href="./css/text-decor.css" />
     <link rel="stylesheet" type="text/css" href="./css/sections/faq.css" />
-    <link rel="stylesheet" type="text/css" href="./css/sections/mint.css" />
     <link rel="stylesheet" type="text/css" href="./css/sections/about.css" />
     <link rel="stylesheet" type="text/css" href="./css/scroll/scrollbar.css" />
     <link rel="stylesheet" type="text/css" href="./css/content-position.css" />
     <link rel="stylesheet" type="text/css" href="./css/sections/profile.css" />
     <link rel="stylesheet" type="text/css" href="./css/sections/gallery.css" />
     <link rel="stylesheet" type="text/css" href="./css/sections/timeline.css" />
+    <link rel="stylesheet" type="text/css" href="./css/sections/mint/button.css" />
+    <link rel="stylesheet" type="text/css" href="./css/sections/mint/tooltip.css" />
     <link rel="stylesheet" type="text/css" href="./css/sections/footer/footer.css" />
     <link rel="stylesheet" type="text/css" href="./css/sections/footer/social.css" />
     <link rel="stylesheet" type="text/css" href="./css/scroll/scroll-indicator.css" />
@@ -41,6 +42,8 @@
     <link rel="stylesheet" type="text/css" href="./css/responsive/sections/footer/footer.css" />
     <link rel="stylesheet" type="text/css" href="./css/responsive/sections/footer/social.css" />
     <link rel="stylesheet" type="text/css" href="./css/responsive/scroll/scroll-indicator.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <title>Quokka Qommunity</title>
   </head>
@@ -129,7 +132,7 @@
 
     <!-- Mint Button -->
     <div class="mint-container">
-      <div class="container">
+      <div class="container tooltip-mint">
           <a href="https://quokka-qommunity.netlify.app/" target="_blank" class="mint-btn">
             Mint a Quokka
           </a>
@@ -138,6 +141,13 @@
     
           <h5>= 0.5 SOL</h5>
     
+          <div class="padding-10"></div>
+
+          <div class="mint-tooltip-container">
+            <i class="fa fa-info-circle message"></i>
+            <p class="tooltip w3-container w3-padding-16">Please read the FAQs for creating a Phantom wallet, importing Solana tokens, and more.</p>
+          </div>
+
           <div class="padding-10"></div>
       </div>
     </div>

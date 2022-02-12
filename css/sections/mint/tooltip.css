@@ -1,0 +1,67 @@
+/* Container */
+.mint-tooltip-container {
+  font-size: 25px;
+  font-family: "Inconsolata", sans-serif;
+  color: rgb(245, 166, 19);
+  position: relative;
+}
+
+.mint-tooltip-container:hover .tooltip {
+  display: block;
+}
+
+/* Tooltip */
+.tooltip {
+  border-radius: 15px;
+  position: absolute;
+  width: max-content;
+  padding: 1%;
+  bottom: 120%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  display: none;
+  font-size: 25px;
+  background-color: var(--lighter-indigo);
+}
+
+.tooltip::after,
+.tooltip::before {
+  content: "";
+  width: 25px;
+  height: 25px;
+  background-color: inherit;
+  position: absolute;
+  z-index: -1;
+  transform: rotate(45deg);
+  left: 49%;
+}
+
+.tooltip::after {
+  animation: move 1.5s;
+}
+
+.tooltip::before {
+  top: 77%;
+  animation: move-reverse 1.5s;
+}
+
+/* Sliding Animation  */
+@keyframes move {
+  from {
+    left: 12%;
+  }
+
+  to {
+    left: 50%;
+  }
+}
+
+@keyframes move-reverse {
+  from {
+    left: 60%;
+  }
+
+  to {
+    left: 50%;
+  }
+}
