@@ -92,3 +92,7 @@ li {
   color: var(--lightest-indigo);
   background: var(--black);
 }
+
+.colouring {
+  height: 400px;
+}
