@@ -9,6 +9,7 @@
   --light-indigo: #772aff;
   --lighter-indigo: #7435a8;
   --lightest-indigo: #aa81cc;
+  --gold: rgb(245, 166, 19);
 }
 
 * {
@@ -95,4 +96,23 @@ li {
 
 .colouring {
   height: 400px;
+}
+
+.textshadow a {
+  text-decoration: none;
+  cursor: auto;
+
+  font-size: 7vw;
+  letter-spacing: 1vw;
+  background: -webkit-linear-gradient(
+    45deg,
+    var(--light-indigo),
+    var(--lighter-indigo)
+  );
+  text-shadow: -0.5vw -0.5vw 0 white;
+
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
