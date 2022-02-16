@@ -98,21 +98,9 @@ li {
   height: 400px;
 }
 
-.textshadow a {
-  text-decoration: none;
-  cursor: auto;
-
-  font-size: 7vw;
-  letter-spacing: 1vw;
-  background: -webkit-linear-gradient(
-    45deg,
-    var(--light-indigo),
-    var(--lighter-indigo)
-  );
-  text-shadow: -0.5vw -0.5vw 0 white;
-
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+.tip span {
+  font-family: "Inconsolata", sans-serif;
+  font-size: 23px;
+  font-weight: 300;
+  color: var(--white);
 }
