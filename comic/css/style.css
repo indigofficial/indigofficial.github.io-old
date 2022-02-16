@@ -53,3 +53,11 @@ i {
 img {
   width: 600px;
 }
+
+.padding-10 {
+  padding: 10px;
+}
+
+.container {
+  padding: 30px;
+}
