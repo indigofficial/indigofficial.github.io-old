@@ -9,7 +9,14 @@
 }
 
 .content-story {
-  padding: 200px 50px;
+  padding: 150px 50px;
+  overflow: hidden;
+  display: block;
+  height: auto;
+}
+
+.content-comic {
+  padding: 70px 50px;
   overflow: hidden;
   display: block;
   height: auto;
