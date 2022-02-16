@@ -1,0 +1,21 @@
+.square_btn {
+  font-family: "Inconsolata", sans-serif;
+  font-size: 25px;
+  text-decoration: none;
+  color: #fff;
+  display: inline-block;
+
+  border-bottom: solid 4px var(--indigo);
+  border-radius: 3px;
+
+  padding: 0.5em 1em;
+  background: var(--lighter-indigo);
+}
+
+.square_btn:active {
+  -ms-transform: translateY(4px);
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);
+
+  border-bottom: none;
+}
