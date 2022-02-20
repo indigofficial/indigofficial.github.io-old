@@ -17,3 +17,7 @@ function galleryspin(sign) {
       "deg);"
   );
 }
+
+console.log(
+  "Hello there! I see you've decided to open up the console! Well, I hope you have an amazing, happy day! - Indigo <3"
+);
