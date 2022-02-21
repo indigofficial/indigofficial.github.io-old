@@ -89,6 +89,10 @@ li {
   color: var(--blue-black);
 }
 
+img {
+  height: 700px;
+}
+
 ::selection {
   color: var(--lightest-indigo);
   background: var(--black);
@@ -122,4 +126,10 @@ li {
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+}
+
+.center-comic {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
 }
